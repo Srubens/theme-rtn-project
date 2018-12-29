@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+img a{
+    border:none;
+}
+
+embed,
+video,
+iframe,
+iframe[style]{
+    max-width: 100%;
+    height: auto;
+
+}
+
+ul{
+    list-style: none;
+}
+
+:root {
+    --themeColorA: #fee9cd;
+    --themeColorB: #289b96;
+    --themeColorB_h: #5cddd8;
+}
+
+/* HEADER TOPO */
+.header_nav{
+    background-color: var(--themeColorA) !important;
+}
+
+.header_logo img{
+    max-width: 100%;
+    width: 200px;
+}
+
+.header_top_ul{
+    flex-basis: 80%;
+    justify-content: center;
+}
+
+.header_top_ul li{
+    font-size: 1.2em;
+    margin-left: 8px;
+}
+
+.header_top_ul li:hover,
+.header_top_ul li a:hover{
+    color: var(--themeColorB) !important;
+}
+
+.header_contact{
+    text-align: right;
+}
+
+/* HEADER TOPO */
+
+/* WHATSAPP */
+
+.main_whatsapp img{
+    width: 60px;
+    height: 60px;
+    right: 55px;
+    position: fixed;
+    max-width: 100%;
+    bottom: 40px;
+    z-index: 99;
+}
+/* WHATSAPP */
+
+/* CARROUSEL SLIDER */
+
+.carousel-indicators li{
+    width: 40px;
+    height: 8px;
+    background-color: var(--themeColorB);
+    margin-left: 8px;
+    opacity: 1;
+}
+
+.carousel-indicators .active{
+    background-color: #fff;
+}
+
+/* CARROUSEL SLIDER */
+
+.main_items{
+    display: flex;
+    margin: 30px 0;
+}
+
+.main_items_desc{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main_items_desc img{
+    width: 100px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    margin: 20px auto;
+}
+
+.main_items_desc h1{
+    font-size: 1.2em;
+    color: #000;
+}
+
+.main_items_desc a{
+    text-decoration: none;
+}
+
+/* MAIN MARKETING */
+
+.bg_main_marketing{
+    background: #f2f2f2;
+}
+
+.main_marketing{
+    
+    display: flex;
+    padding: 15px;
+    height: 305px;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.main_marketing header{
+    margin: 30px auto;
+    padding: 15px 0px;
+}
+
+.main_marketing h1{
+    font-size: 1.3em;
+    text-align: center;
+    width: 350px;
+    max-width: 100%;
+}
+
+.main_form_marketing{
+    margin: 20px auto;
+    margin-top: -35px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    max-width: 100%;
+}
+
+.main_form_marketing input[type="email"]{
+    margin-bottom: 15px;
+    border-radius: 6px;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* MAIN MARKETING */
+
+/* FOOTER */
+
+.main_footer{
+    background: #003633;
+    align-items: center;
+    color: #fff;
+}
+
+.main_byrow_footer{
+    align-items: center;
+}
+
+.logo_footer img{
+    width: 280px;
+    max-width: 100%;
+    margin: 20px 0px;
+}
+
+.main_social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_social_face{
+    width: 32px;
+    height: 32px;
+    background: url(../../images/facebook.png) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.main_social_insta{
+    width: 32px;
+    height: 32px;
+    background: url(../../images/instagram.png) no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.main_footer_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_footer_payme{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.main_footer_payme p{
+    text-align: right;
+}
+
+.main_footer_payme img{
+    width: 180px;
+    max-width: 100%;
+}
+
+.main_footer_copy{
+    text-align: center;
+    padding: 24px;
+}
+
+
+/* FOOTER */
+
+
+
+@media (max-width: 576px){
+    .header_logo{
+        margin: 0 auto;
+    }
+    
+    .header_top_ul{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .header_contact span{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .logo_footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo_footer img{
+        width: 280px;
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    .main_social{
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 18px;
+    }
+
+    .main_footer_contact{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .main_footer_payme{
+        align-items: center;
+    }
+
+}
+
