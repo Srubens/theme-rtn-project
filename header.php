@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title><?php bloginfo('name'); ?></title>
   <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.png" type="image/x-icon">
+  <meta name="description" content="<?= bloginfo('description'); ?>" />
   <?php wp_head() ?>
 </head>
 <body>
@@ -23,7 +24,9 @@
           'fallback_cb' => false,
           'container_class' => 'collapse navbar-collapse',
           'container_id' => 'navbarSupportedContent',
-          'menu_class' => 'navbar-nav header_top_ul'
+          'menu_class' => 'navbar-nav header_top_ul',
+          'walker' => new WP_Bootstrap_Navwalker(),
+          'depth' => 2
         ]);
       }
     ?>

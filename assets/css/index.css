@@ -50,14 +50,14 @@ ul{
 }
 
 .header_top_ul{
-    flex-basis: 80%;
+    flex-basis: 100%;
     display: flex;
     justify-content: center;
 }
 
 .header_top_ul li{
     font-size: 1.2em;
-    margin-left: 12px;
+    margin-left: 28px;
 }
 
 .header_top_ul a{
@@ -248,6 +248,25 @@ ul{
 
 
 /* FOOTER */
+
+/* PAGE ABOUT */
+
+.main_about{
+    margin:30px auto;
+}
+
+.about_contents{
+    margin: 24px auto;
+}
+
+/* PAGE ABOUT */
+
+/* 404 NOT FOUND */
+.page_not_found{
+    margin:35px auto;
+}
+
+/* 404 NOT FOUND */
 
 
 
