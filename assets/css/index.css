@@ -261,6 +261,59 @@ ul{
 
 /* PAGE ABOUT */
 
+/* PAGE PRODUTOS */
+.form_produtos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:20px auto;
+}
+
+.main_produtos_details{
+    max-width: 250px;
+    text-align: center;
+    margin:30px 0;
+}
+
+.main_produtos_details img{
+    width: 300px;
+
+}
+
+.main_produtos_details h1{
+    font-size: 1.3em;
+}
+
+.main_produtos_details p{
+    font-size: 1em;
+    margin:10px 0;
+}
+
+.main_produtos_details a{
+    width: 80%;
+}
+
+.page_bottons{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 0;
+}
+
+
+/* PAGE PRODUTOS */
+
+/* PAGE CONTATO */
+.page_contato{
+    margin:20px auto;
+}
+
+.btn_contact{
+    width: 50%;
+    margin:20px 0;
+}
+
+/* PAGE CONTATO */
+
 /* 404 NOT FOUND */
 .page_not_found{
     margin:35px auto;
