@@ -1,4 +1,7 @@
 <?php  
+   /**
+    * Template Name: Contato
+    */
    get_header();
 ?>
 
@@ -33,7 +36,7 @@
                      <textarea class="form-control" name="" id="" cols="30" rows="10" required>
                      </textarea>
                      
-                     <input type="button" class="btn_contact btn btn-success" value="Enviar">
+                     <button class="btn_contact btn btn-success">Enviar</button>
                   </form>
                </div>
             </div>

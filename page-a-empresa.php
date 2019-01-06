@@ -1,4 +1,7 @@
 <?php  
+   /**
+    * Template Name: Empresa
+    */
    get_header();
 ?>
 
@@ -17,7 +20,7 @@
                     <div class="col-md-6 col-sm-12">
                         <p>
                         Mussum Ipsum, cacilds vidis litro abertis. 
-                        Aenean aliquam molestie leo, vitae iaculis nisl. 
+						Aenean aliquam molestie leo, vitae iaculis nisl. 
                         Quem num gosta di mim que vai caçá sua turmis! 
                         Quem num gosta di mé, boa gentis num é.  
                         Per aumento de cachacis, eu reclamis.
