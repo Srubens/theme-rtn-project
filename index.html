@@ -11,6 +11,11 @@
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        .search_box{
+            left: 76%;
+        }
+    </style>
 </head>
 
 <body>
@@ -41,8 +46,8 @@
                 <a class="nav-link" href="#">Contato</a>
             </li>
         </ul>
-        <form role="search" method="GET" action="<?php echo esc_url(home_url('/')); ?>" class="search_box">
-            <input type="search" name="s" value="<?php the_search_query(); ?>" class="search_text" placeholder="Pesquisar por:">
+        <form role="search" method="GET" action="" class="search_box">
+            <input type="search" name="s" value="" class="search_text" placeholder="Pesquisar por:">
             <input class="search_btn" type="submit" value="Pesquisar">
         </form>
         <div class="header_contact">
