@@ -19,30 +19,9 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <p>
-                        Mussum Ipsum, cacilds vidis litro abertis. 
-						Aenean aliquam molestie leo, vitae iaculis nisl. 
-                        Quem num gosta di mim que vai caçá sua turmis! 
-                        Quem num gosta di mé, boa gentis num é.  
-                        Per aumento de cachacis, eu reclamis.
-                        </p>
-                        <p>
-                        Mais vale um bebadis conhecidiss, 
-                        que um alcoolatra anonimis. 
-                        Copo furadis é disculpa de bebadis, 
-                        arcu quam euismod magna. Suco de cevadiss, 
-                        é um leite divinis, qui tem lupuliz, matis, 
-                        aguis e fermentis. 
-                        Não sou faixa preta cumpadi, sou preto inteiris, inteiris.
-
-                        Manduma pindureta quium dia nois paga. 
-                        Leite de capivaris, leite de mula manquis sem cabeça. 
-                        Cevadis im ampola pa arma uma pindureta. 
-                        Casamentiss faiz malandris se pirulitá.
-
-                        Mé faiz elementum girarzis, nisi eros vermeio. 
-                        Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. 
-                        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. 
-                        Detraxit consequat et quo num tendi nada.
+                        A empresa Tanamão Nordeste foi fundada no ano de 2018 na cidade Recife pelo Senhora Pereira e sua principal missão é oferecer melhores produtos de construção para pessoas e ou empresas. </p>
+                        <p
+                        Nossa Missão da Tanamão Nordeste é oferecer sempre o melhor produto de material de construção da região Norte/Nordeste.
                         </p>
                     </div>
                     <div class="col-md-6 col-sm-12">

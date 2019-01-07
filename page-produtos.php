@@ -31,17 +31,17 @@
         </div>
     </div>
 
-    <div class="produtos_pre_next_page">
+    <!-- <div class="produtos_pre_next_page">
         <div class="page_bottons">
             <div class="btn_prev btn btn-outline-secondary">
-              <?php previous_posts_link('Pagina Anterior'); ?>
+              <?php //previous_post_link(); ?>
               </div>
             <div class="btn_next btn btn-outline-secondary">
-              <?php next_posts_link('Proxima Pagina'); ?>
+              <?php //next_post_link(); ?>
             </div>
 
         </div>
-    </div>
+    </div> -->
 
 
 </div>

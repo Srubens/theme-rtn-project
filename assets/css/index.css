@@ -85,7 +85,7 @@ ul{
     top: 10px;
     left: 70%;
     transform: translate(-50%,50%);
-    background: #2f3640;
+    background: #60ded7;
     height: 40px;
     border-radius: 40px;
     padding: 10px;
@@ -105,7 +105,7 @@ ul{
     background: url(../../images/search.png) no-repeat;
     background-size: 18px;
     background-position: center;
-    background-color: #ff3838;
+    background-color: #ff694b;
 }
 
 .search_text{
@@ -189,12 +189,13 @@ ul{
 
 .bg_main_marketing{
     background: #f2f2f2;
+    height: auto;
+    padding: 20px;
 }
 
 .main_marketing{
     
     display: flex;
-    padding: 15px;
     height: 305px;
     flex-direction: column;
     max-width: 100%;
@@ -202,7 +203,6 @@ ul{
 
 .main_marketing header{
     margin: 30px auto;
-    padding: 15px 0px;
 }
 
 .main_marketing h1{
@@ -210,6 +210,7 @@ ul{
     text-align: center;
     width: 350px;
     max-width: 100%;
+    margin-bottom: 30px;
 }
 
 .main_form_marketing{
@@ -219,6 +220,14 @@ ul{
     flex-direction: column;
     width: 400px;
     max-width: 100%;
+}
+
+.main_form_marketing input[type="text"]{
+    margin-bottom: 15px;
+    border-radius: 6px;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 .main_form_marketing input[type="email"]{
