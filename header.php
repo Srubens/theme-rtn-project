@@ -15,7 +15,7 @@
 <body>
 
 <nav class="header_nav navbar navbar-expand-lg navbar-light ">
-    <a class="navbar-brand header_logo" href="<?php bloginfo('home'); ?>"><img src="<?php bloginfo('template_url'); ?>./images/logo.png"
+    <a class="navbar-brand header_logo" href="<?php bloginfo('home'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png"
             alt="logo tanamao nordeste"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

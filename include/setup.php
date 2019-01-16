@@ -36,21 +36,6 @@ function rt_after_setup(){
 
 function rt_custon_post(){
 
-    $produtos = array(
-        'name' => 'Todos os Produtos',
-        'add_new' => 'Adicionar Novo Produto',
-        'add_new_item' => 'Adicionar Novo Produto',
-        'sigular_name' => 'Produto',
-        'edit_item' => 'Editar Produto',
-        'new_item' => 'Novo Produto',
-        'view_product' => 'Ver Produtos',
-        'search_itens' => 'Procurar Produtos',
-        'not_found' => 'Nenhum Produto Encontrado',
-        'not_found_thash' => 'Nenhum Produto na Lixeira',
-        'parent_iten_colon' => '',
-        'menu_name' => 'Todos os Produtos'
-    );
-
     $slide = array(
         'name' => 'Todos os Banner',
         'add_new' => 'Adicionar Novo Banner',
@@ -74,16 +59,7 @@ function rt_custon_post(){
         'supports' => array('title', 'editor', 'thumbnail', 'custom-fields', 'revisions', 'excerpt')
     );
 
-    $newProduct = array(
-        'labels' => $produtos,
-        'public' => true,
-        'hierarchial' => false,
-        'menu_position' => 5,
-        'supports' => array('title', 'editor', 'thumbnail', 'custom-fields', 'revisions', 'excerpt')
-    );
-
     register_post_type('Banner', $bannerSlider);
-    register_post_type('Produto', $newProduct);
     flush_rewrite_rules();
 
 }

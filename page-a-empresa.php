@@ -20,7 +20,7 @@
                     <div class="col-md-6 col-sm-12">
                         <p>
                         A empresa Tanamão Nordeste foi fundada no ano de 2018 na cidade Recife pelo Senhora Pereira e sua principal missão é oferecer melhores produtos de construção para pessoas e ou empresas. </p>
-                        <p
+                        <p>
                         Nossa Missão da Tanamão Nordeste é oferecer sempre o melhor produto de material de construção da região Norte/Nordeste.
                         </p>
                     </div>

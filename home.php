@@ -39,7 +39,7 @@
             <div class="row">
 
                 <div class="main_items_desc col-md-3">
-                    <a href="<?php bloginfo('home'); ?>/produtos"><img src="<?php bloginfo('template_url'); ?>./images/01.png" alt=""></a>
+                    <a href="<?php bloginfo('home'); ?>/produtos"><img src="<?php bloginfo('template_url'); ?>/images/01.png" alt=""></a>
                     <a href="#">
                         <h1>
                             Confira nossa variedade de produtos para você
@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="main_items_desc col-md-3">
-                    <a href="#"><img src="<?php bloginfo('template_url'); ?>./images/02.png" alt=""></a>
+                    <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/02.png" alt=""></a>
                     <a href="#">
                         <h1>
                             Seja nosso parceiro e ganhe benefícios exclusivos
@@ -57,7 +57,7 @@
                 </div>
 
                 <div class="main_items_desc col-md-3">
-                    <a href="#"><img src="<?php bloginfo('template_url'); ?>./images/03.png" alt=""></a>
+                    <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/03.png" alt=""></a>
                     <a href="#">
                         <h1>
                             Distribuindo do norte ao sul do nosso Brasil
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="main_items_desc col-md-3">
-                    <a href="<?php bloginfo('home'); ?>/contato"><img src="<?php bloginfo('template_url'); ?>./images/04.png" alt=""></a>
+                    <a href="<?php bloginfo('home'); ?>/contato"><img src="<?php bloginfo('template_url'); ?>/images/04.png" alt=""></a>
                     <a href="#">
                         <h1>
                             Faça parte da equipe envie seu email para contato@tanamao-nordeste.com.br
