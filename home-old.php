@@ -1,8 +1,38 @@
 <?php  
    get_header();
 
-//echo do_shortcode('[rev_slider alias="myslide"]');
 ?>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+  	<?php 
+       $slider = new WP_Query([
+ 		  'post_per_page' => 3,
+ 		  'post_type' => 'Banner'
+       ]);
+       $i = 0;
+       while( $slider->have_posts() ):
+       	  $slider->the_post();
+  	?>
+    <div class="carousel-item <?php 
+    echo ($i == 0) ? 'active' : '' ?>">
+      <?php the_post_thumbnail('full'); ?>
+    </div>
+	<?php $i++; endwhile; ?>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> -->
 
 <div class="container">
     <div class="col-md-12 col-sm-12">
