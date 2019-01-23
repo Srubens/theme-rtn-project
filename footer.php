@@ -23,7 +23,10 @@
 				<div class="col-md-6 col-sm-12">
 					<div class="main_footer_contact ">
 						<span>(81) 3088-2446</span>
-					    <span>contato@tanamao-nordeste.com.br</span>
+					    <span>Rua Aureliano Arthur Soares<br>
+						Quintas 522, Janga Paulista-PE <br>
+						Visite-nos!
+						</span>
 			        </div>
 				</div>
 				<div class="col-md-6 col-sm-12">

@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="main_items_desc col-md-3">
-                    <a href="#"><img src="<?php bloginfo('template_url'); ?>/images/02.png" alt=""></a>
+                    <a href="<?php bloginfo('home'); ?>/cadastro-de-empresa"><img src="<?php bloginfo('template_url'); ?>/images/02.png" alt=""></a>
                     <a href="#">
                         <h1>
                             Seja nosso parceiro e ganhe benefícios exclusivos
