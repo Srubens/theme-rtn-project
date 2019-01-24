@@ -16,7 +16,7 @@
 
                 <div class="main_items_desc col-md-3">
                     <a href="<?php bloginfo('home'); ?>/produtos"><img src="<?php bloginfo('template_url'); ?>/images/01.png" alt=""></a>
-                    <a href="#">
+                    <a href="<?php bloginfo('home'); ?>/produtos">
                         <h1>
                             Confira nossa variedade de produtos para você
                         </h1>
@@ -24,8 +24,8 @@
                 </div>
 
                 <div class="main_items_desc col-md-3">
-                    <a href="<?php bloginfo('home'); ?>/cadastro-de-empresa"><img src="<?php bloginfo('template_url'); ?>/images/02.png" alt=""></a>
-                    <a href="#">
+                    <a href="<?php bloginfo('home'); ?>/parceiros"><img src="<?php bloginfo('template_url'); ?>/images/02.png" alt=""></a>
+                    <a href="<?php bloginfo('home'); ?>/parceiros">
                         <h1>
                             Seja nosso parceiro e ganhe benefícios exclusivos
                         </h1>

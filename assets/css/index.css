@@ -53,6 +53,7 @@ ul{
     flex-basis: 100%;
     display: flex;
     justify-content: center;
+    margin-right: 70px;
 }
 
 .header_top_ul li{
@@ -410,11 +411,26 @@ ul{
 
 /* PAGE SINGLE PRODUTOS */
 
+/* PAGE VIDEOS */
 
+.myvideos{
+    max-width: 530px;
+    margin:20px 12px;
+    padding:4px 0;
+}
+
+.myvideos iframe{
+    width: 530px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+/* PAGE VIDEOS */
 
 @media (max-width: 576px){
     .header_logo{
         margin: 0 auto;
+        max-width: 220px;
     }
     
     .header_top_ul{
@@ -501,6 +517,11 @@ ul{
 
     .main_footer_payme{
         align-items: center;
+    }
+
+    .myvideos iframe{
+        width: 100%;
+        height: auto;
     }
 
 }
