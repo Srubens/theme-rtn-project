@@ -22,10 +22,11 @@
 			<div class="row main_byrow_footer">
 				<div class="col-md-6 col-sm-12">
 					<div class="main_footer_contact ">
-						<span>(81) 3088-2446</span>
-					    <span>Rua Aureliano Arthur Soares<br>
-						Quintas 522, Janga Paulista-PE <br>
-						Visite-nos!
+						<span>
+							(81) 3088-2446 / (81) 9.9546-6964<br>
+							Rua Aureliano Arthur Soares<br>
+							Quintas 522, Janga Paulista-PE<br> 
+							tanamao.nordeste@gmail.com<br>
 						</span>
 			        </div>
 				</div>

@@ -36,10 +36,10 @@
 
 		   $text = [
 		   	"",
-		   	"Confira nossa variedade de produtos para você",
+		   	"Conheça nossos Produtos",
 		   	"Seja nosso parceiro e ganhe benefícios exclusivos",
-		   	"Distribuindo do norte ao sul do nosso Brasil",
-		   	"Faça parte da equipe envie seu email para tanamao@contato.com.br",
+		   	"Comercializando em toda região Metropolitana do Recife e Cidades Vizinhas",
+		   	"Faça seu Pedido!",
 		   ]; 
 
            $post = 0;

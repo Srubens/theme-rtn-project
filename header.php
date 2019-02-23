@@ -42,7 +42,7 @@
 
         <div class="header_contact">
             <span>(81) 3088-2446</span>
-            <span>contato@tanamao-nordeste.com.br</span>
+            <span>(81) 9.9546-6964</span>
         </div>
     </div>
 </nav><!-- nav header_nav -->
